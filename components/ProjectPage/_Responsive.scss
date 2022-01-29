@@ -1,0 +1,21 @@
+@media only screen and (max-width: 992px) {
+    .project,
+    .ads-wrapper {
+        width: calc(50% - 30px);
+    }
+}
+@media only screen and (max-width: 768px) {
+    .project,
+    .ads-wrapper {
+        width: 100%;
+        margin: 0 0 3rem;
+    }
+    .project {
+        .truncate {
+            -webkit-line-clamp: 2;
+        }
+    }
+    .project-list {
+        margin: 0;
+    }
+}
